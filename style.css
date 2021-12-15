@@ -1,0 +1,109 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid 2px blue;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    /* block: it doesnt move,but you can put w/h */
+    /* inline :it doesnt respect the widht ang height*/
+    /* inline-block : allows to use width and height */
+}
+
+
+/* CLASSWORK */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(245, 245, 245);
+
+    
+}
+.card{
+    width:300px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 4px 4px 20px gainsboro;
+}
+/* layer,speaker,network */
+
+.card img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+/* check */
+.item img{
+    width: 15px;
+    height: 15px;
+
+}
+.price h2,p{
+    display: inline-block;
+}
+.price h2{
+    margin-left: 20px;
+}
+.description{
+    margin-left: 20px;
+}
+.description h2{
+    color: orange;
+}
+.description p{
+    width: 250px;
+    border-bottom: 1px solid lightgray;
+}
+button{
+    margin-left: 20px;
+    width: 250px;
+    padding: 8px;
+    background-color: lightgray;
+    border-radius: 8px;
+   
+   
+   
+}  
+.description2 h2{
+    color: #42B9F4;
+   
+
+}
+.description3 h2{
+    color: #46D68C;
+}
+.card2 button {
+    background-color: white;
+    
+
+}
+.card3 button {
+    background-color: #46D68C;
+    border: none;
+    
+    
+}
+.card {
+    display: inline-block ;
+}
+.cards{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
